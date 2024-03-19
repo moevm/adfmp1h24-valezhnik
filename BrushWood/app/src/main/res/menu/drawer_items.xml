@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1">
+        <item
+            android:icon="@drawable/map"
+            android:id = "@+id/navMap"
+            android:title="Карта" />
+
+        <item
+            android:icon="@drawable/view_kit"
+            android:id = "@+id/navCart"
+            android:title="Мои сборы" />
+
+        <item
+            android:icon="@drawable/brain"
+            android:id = "@+id/navFavourite"
+            android:title= "Памятка по сбору" />
+
+        <item
+            android:icon="@drawable/map"
+            android:id = "@+id/navRegions"
+            android:title= "Места для сбора" />
+
+        <item
+            android:icon="@drawable/contact"
+            android:id = "@+id/navContacts"
+            android:title= "Контакты ответственных органов" />
+
+    </group>
+
+
+    <group android:id="@+id/group2">
+        <item
+            android:icon="@drawable/info"
+            android:id = "@+id/navFeedback"
+            android:title= "О разработчиках" />
+
+    </group>
+
+
+</menu>

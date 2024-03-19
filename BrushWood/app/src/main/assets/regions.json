@@ -1,0 +1,112 @@
+[
+  {
+    "id": 0,
+    "name": "Бокситогорское",
+    "path": "region1.json"
+  },
+
+  {
+    "id": 1,
+    "name": "Волосовское",
+    "path": "region2.json"
+  },
+
+  {
+    "id": 2,
+    "name": "Волховское",
+    "path": "region1.json"
+  },
+
+  {
+    "id": 3,
+    "name": "Всеволожское",
+    "path": "region2.json"
+  },
+
+  {
+    "id": 4,
+    "name": "Гатчинское",
+    "path": "region1.json"
+  },
+
+  {
+    "id": 5,
+    "name": "Кингисеппское",
+    "path": "region2.json"
+  },
+  {
+    "id": 6,
+    "name": "Киришское",
+    "path": "region1.json"
+  },
+  {
+    "id": 7,
+    "name": "Кировское",
+    "path": "region2.json"
+  },
+
+  {
+    "id": 8,
+    "name": "Лодейнопольское",
+    "path": "region1.json"
+  },
+
+  {
+    "id": 9,
+    "name": "Ломоносовское",
+    "path": "region2.json"
+  },
+
+  {
+    "id": 10,
+    "name": "Лужское",
+    "path": "region1.json"
+  },
+
+  {
+    "id": 11,
+    "name": "Любанское",
+    "path": "region2.json"
+  },
+
+  {
+    "id": 12,
+    "name": "Подпорожское",
+    "path": "region1.json"
+  },
+
+  {
+    "id": 13,
+    "name": "Рощинское",
+    "path": "region2.json"
+  },
+
+  {
+    "id": 14,
+    "name": "Северо-Западное",
+    "path": "region1.json"
+  },
+
+  {
+    "id": 15,
+    "name": "Северо-Западное",
+    "path": "region2.json"
+  },
+
+  {
+    "id": 16,
+    "name": "Сланцевское",
+    "path": "region1.json"
+  },
+
+  {
+    "id": 17,
+    "name": "Тихвинское",
+    "path": "region2.json"
+  },
+  {
+    "id": 18,
+    "name": "Учебно-опытное",
+    "path": "region1.json"
+  }
+]

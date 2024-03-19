@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="60dp"
+    android:orientation="horizontal"
+    android:divider="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/district"
+        android:fontFamily="sans-serif-black"
+        android:layout_height="wrap_content"
+        android:layout_width="140dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textFontWeight="500"
+        android:padding="5dp"
+        android:text="Участковое лесничество" />
+
+
+    <TextView
+        android:id="@+id/quarter"
+        android:fontFamily="sans-serif-black"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:textFontWeight="500"
+        android:text="Квартал"/>
+
+    <TextView
+        android:id="@+id/selected"
+        android:fontFamily="sans-serif-black"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:textFontWeight="500"
+        android:text="Выдел"/>
+
+    <TextView
+        android:id="@+id/area"
+        android:fontFamily="sans-serif-black"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:textFontWeight="500"
+        android:text="Примерная площадь, га"/>
+
+    <TextView
+        android:id="@+id/length"
+        android:fontFamily="sans-serif-black"
+        android:layout_gravity="center"
+        android:textFontWeight="500"
+        android:layout_height="wrap_content"
+        android:layout_width="90dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:text="Примерная протяжен-ность, км"/>
+
+    <TextView
+        android:id="@+id/way"
+        android:fontFamily="sans-serif-black"
+        android:layout_gravity="center"
+        android:textFontWeight="500"
+        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:text="Наименование дороги или около какого населенного пункта"/>
+
+</TableRow>
+

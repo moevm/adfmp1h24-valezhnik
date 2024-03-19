@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="60dp"
+    android:orientation="vertical"
+    android:divider="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/organization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="sans-serif-black"
+        android:padding="5dp"
+        android:text="Организация"
+        android:textFontWeight="1000" />
+
+    <TextView
+        android:id="@+id/name"
+        android:fontFamily="sans-serif-black"
+        android:layout_gravity="left"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textFontWeight="400"
+        android:padding="5dp"
+        android:text="ФИО"/>
+
+    <TextView
+        android:id="@+id/role"
+        android:fontFamily="sans-serif-black"
+        android:layout_gravity="left"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textFontWeight="400"
+        android:padding="5dp"
+        android:text="Роль"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/contactLayout"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/contact"
+/>
+        <TextView
+            android:id="@+id/contact"
+            android:fontFamily="sans-serif-black"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@drawable/contact_selector"
+            android:layout_marginEnd="10dp"
+            android:textFontWeight="400"
+            android:padding="5dp"
+            android:text="Контакт"/>
+    </LinearLayout>
+
+</LinearLayout>
+
