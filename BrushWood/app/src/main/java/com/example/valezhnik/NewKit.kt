@@ -14,6 +14,7 @@ import android.provider.MediaStore
 import android.text.Html
 import android.util.Base64
 import android.util.Log
+import android.util.TypedValue
 import android.widget.DatePicker
 import android.widget.EditText
 import android.widget.ImageButton
@@ -90,7 +91,7 @@ class NewKit : AppCompatActivity() {
         }
 
         if(volume != "null"){
-            textSizeView.text = Html.fromHtml("$volume м<sup>2</sup>")
+            textSizeView.text = Html.fromHtml("$volume м<sup>3</sup>")
         }
 
         nameText.text = intent.getStringExtra("name")
@@ -132,7 +133,7 @@ class NewKit : AppCompatActivity() {
                 sharingIntent.putExtra(Intent.EXTRA_STREAM, imageUri)
                 sharingIntent.setType("image/")
                 sharingIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-                startActivity(Intent.createChooser(sharingIntent, "send"));
+                startActivity(Intent.createChooser(sharingIntent, "Сбор валежника"));
             }
 
 
@@ -178,7 +179,8 @@ class NewKit : AppCompatActivity() {
             btnInsertSize.setOnClickListener {
                 showNumberInputDialog(this) { number ->
                     volume = number.toString()
-                    textSizeView.text = Html.fromHtml("$volume м<sup>2</sup>")
+                    textSizeView.text = Html.fromHtml("$volume м<sup>3</sup>")
+
                 }
             }
         }
@@ -382,9 +384,8 @@ class NewKit : AppCompatActivity() {
         val editTextNumber = dialogView.findViewById<EditText>(R.id.editTextNumber)
 
         AlertDialog.Builder(context)
-            .setTitle("Введите объём (в м^2)")
+            .setTitle(Html.fromHtml("Введите объём (в м<sup>3</sup>)"))
             .setView(dialogView)
-
             .setPositiveButton("Сохранить") { dialog, _ ->
                 val inputText = editTextNumber.text.toString()
                 val number = if (inputText.isNotEmpty()) inputText.toInt() else 0
