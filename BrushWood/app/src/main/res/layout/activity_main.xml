@@ -12,6 +12,33 @@
     <include
       layout = "@layout/activity_main_content" />
 
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:gravity="top|center"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/brushwood" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ibm_plex_sans_medium"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Добро пожаловать герой !\n В приложении сбора валежника BRUSHWOOD, \n Сделай учёт твоих сборов, узнай как правильно собрать валежнику, находи места которые требуют отчистки, и много чего.\n\n Чтобы начинать спасать планету, нажми кнопку меню в верхнем левом углу экрана. "
+            android:textColor="#296A97"
+            android:textSize="15dp" />
+    </LinearLayout>
 
   <com.google.android.material.navigation.NavigationView
       android:id="@+id/navigationView"
