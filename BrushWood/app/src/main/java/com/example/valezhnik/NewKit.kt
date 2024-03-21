@@ -384,7 +384,7 @@ class NewKit : AppCompatActivity() {
         val editTextNumber = dialogView.findViewById<EditText>(R.id.editTextNumber)
 
         AlertDialog.Builder(context)
-            .setTitle(Html.fromHtml("Введите объём (в м<sup>3</sup>)"))
+            .setTitle("Введите объём (в м^3)")
             .setView(dialogView)
             .setPositiveButton("Сохранить") { dialog, _ ->
                 val inputText = editTextNumber.text.toString()
